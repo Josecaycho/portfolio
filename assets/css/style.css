@@ -850,10 +850,20 @@ textarea::-ms-input-placeholder
 }
 
 
+.items-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
 
-
-
-
-
-
-
+@media (max-width: 587px) {
+    .items-footer {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
+}
