@@ -289,14 +289,14 @@ Separator
     height: 4px;
     width: 130px;
     margin: auto;
-    background: #00a5ff;
+    background: #7c7c7c;
 }
 
 .separator2 {
     height: 1px;
     width: 50px;
     margin: auto;
-    background: #999999;
+    background: #adadad;
     margin-bottom: 10px;
 }
 
@@ -465,7 +465,7 @@ textarea::-ms-input-placeholder
     padding: 15px 0;
 }
 .navbar-default .navbar-nav>li>a {
-    color: #ffffff;
+    color: #5b5b5b;
     text-transform: uppercase;
     font-family: 'open_sanssemibold';
 }
@@ -474,14 +474,15 @@ textarea::-ms-input-placeholder
     background-color:transparent;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-    background-color:transparent;
+    color:#fff;
+    background-color: transparent;
 }
 .navbar-default .navbar-nav>li>a:focus {
     color: #fff;
     background-color: transparent;
 }
 .menu-bg{
-    background:#00a5ff ;
+    background:#000 ;
 }
 
 
@@ -529,7 +530,7 @@ textarea::-ms-input-placeholder
     height: 80px;
     width: 80px;
     border-radius: 100%;
-    color: #00a5ff;
+    color: #000;
     font-size: 36px;
     line-height: 80px;
     margin-bottom: 10px;
@@ -762,9 +763,7 @@ textarea::-ms-input-placeholder
     color: #ffffff;
 }
 
-.contact-top{
-    margin-bottom:100px;
-}
+
 .contact-top h1{
     font-size: 36px;
     font-family: 'lorabold';
@@ -778,9 +777,7 @@ textarea::-ms-input-placeholder
 .contact-top li a:hover{
     color: #00a5ff;
 }
-.contact-left-info{
-    margin-bottom: 50px;
-}
+
 .contact-left-info h5{
     text-transform: uppercase;
     font-family: 'open_sanssemibold';
