@@ -657,11 +657,14 @@ textarea::-ms-input-placeholder
 /* Brand Sections */
 .brand-identity{
     width: 100%;
-    display: block;
+    display: flex;
     overflow: hidden;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
 }
 .owl-carousel .owl-item img {
-    width:70%;
+    width:25%;
 }
 
 /* Testimonial Section */
